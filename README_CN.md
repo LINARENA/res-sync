@@ -34,8 +34,7 @@ mkdir -p /data/eos/nodeos-data-volume/nodeos-data-mainnet/data
 第二步，准备配置文件:
 
 ```
-cp -r config.ini /data/eos/nodeos-data-volume/nodeos-data-mainnet
-cp -r genesis.json /data/eos/nodeos-data-volume/nodeos-data-mainnet
+cp -r config /data/eos/nodeos-data-volume/nodeos-data-mainnet
 ```
 
 第三步，开始同步数据:

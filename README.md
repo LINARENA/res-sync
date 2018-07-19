@@ -34,8 +34,7 @@ mkdir -p /data/eos/nodeos-data-volume/nodeos-data-mainnet/data
 The second step is to prepare the configuration file:
 
 ```
-cp -r config.ini /data/eos/nodeos-data-volume/nodeos-data-mainnet
-cp -r genesis.json /data/eos/nodeos-data-volume/nodeos-data-mainnet
+cp -r config /data/eos/nodeos-data-volume/nodeos-data-mainnet
 ```
 
 The third step, start synchronizing data:

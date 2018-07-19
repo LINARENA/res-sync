@@ -25,7 +25,7 @@ services:
     expose:
       - "8888"
     volumes:
-      - /data/eos/nodeos-data-volume/nodeos-data-mainnet:/etc/nodeos
+      - /data/eos/nodeos-data-volume/nodeos-data-mainnet/config:/etc/nodeos
       - /data/eos/nodeos-data-volume/nodeos-data-mainnet/data:/data
       - ./start_nodeosd.sh:/start_nodeosd.sh:ro
 
