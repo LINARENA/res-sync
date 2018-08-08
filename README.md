@@ -1,8 +1,6 @@
-# EOS-Sync
+# RES-Sync
 
-Quickly set up the EOS main network data synchronization to the mongodb database, operating steps:
-
-[点击查看中文](README_CN.md)
+Quickly set up the RES main network data synchronization to the mongodb database, operating steps:
 
 ## Install Dependencies
 
